@@ -1,0 +1,9 @@
+# this builds and starts up your server (assumes you have mounted the current working directory at /mnt)
+
+cd /mnt
+
+export JEKYLL_GITHUB_TOKEN=$1
+export PAGES_REPO_NWO="abcsFrederick/ABCSwebsite"
+export JEKYLL_ENV=development
+
+jekyll serve --host 0.0.0.0
