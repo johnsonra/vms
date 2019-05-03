@@ -1,0 +1,8 @@
+# This script sets up all Docker images and registers them for use
+
+
+## ImageMagick
+
+docker pull dpokidov/imagemagick
+
+### example command: ./convert image.png "-resize 50%" image_small.png
