@@ -1,0 +1,3 @@
+[submodule "docker-rstudio"]
+	path = docker-rstudio
+	url = https://github.com/BIFXapps/docker-rstudio

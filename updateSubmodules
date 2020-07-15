@@ -1,0 +1,9 @@
+#!/usr/local/bin/Rscript
+
+# check status of docker-rstudio
+f <- system('ls docker-rstudio', intern = TRUE)
+
+if(length(f) == 0)
+    system('git submodule init')
+    
+system('git submodule update')
